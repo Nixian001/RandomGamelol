@@ -17,6 +17,6 @@ for (x = 0; x < SCREEN_WIDHT; x++)
 {
     for (y = 0; x < SCREEN_HEIGHT; y++)
     { 
-        DrawPixel(x, y, `rgb({(x/SCREEN_WIDTH) * 255}, {(y/SCREEN_HEIGHT) * 255}, 128)`)
+        DrawPixel(x, y, `rgb({(x/SCREEN_WIDTH) * 255}, {(y/SCREEN_HEIGHT) * 255}, 128)`);
     }
 }
